@@ -37,7 +37,7 @@
   height: 0;
   border-bottom: 2px dotted var(--accent);
   opacity: 0.85;
-  /* pull the divider slightly upward so it's higher on the hero */
+  /* note for myself to make the divider slightly upward so it's higher on the hero */
   margin: -1.5rem 0 2rem;
 }
 
@@ -110,7 +110,7 @@
   gap: 1rem;
   flex-wrap: wrap;
   margin-bottom: 3rem;
-  justify-content: flex-start; /* align to left edge of .hero-text */
+  justify-content: flex-start; 
 }
 
 @media (max-width: 720px) {

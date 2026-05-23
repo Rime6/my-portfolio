@@ -188,20 +188,20 @@
   }
 }
 
-/* Cozy & Kind CSS Design Configuration */
+/* My own cozy CSS Design Configuration */
 :root {
-  /* Light Mode - Warm Oatmeal & Terracotta */
-  --bg: #fffaf4;           /* Warm Almond Milk Cream */
-  --surface: #fbf3e9;      /* Soft Biscuit Beige */
-  --surface2: #f3e6d5;     /* Oatmeal Accent Surface */
-  --border: #ebdccb;      /* Soft Earth Border */
-  --accent: #d96a4b;      /* Cozy Terracotta Clay */
-  --accent2: #7ca982;     /* Calming Sage Green */
+  /* Light Mode */
+  --bg: #fffaf4;           
+  --surface: #fbf3e9;      
+  --surface2: #f3e6d5;     
+  --border: #ebdccb;      
+  --accent: #d96a4b;      
+  --accent2: #7ca982;     
   --accent-bg: rgba(217, 106, 75, 0.08);
   --accent-border: rgba(217, 106, 75, 0.3);
-  --text: #5c4b3e;         /* Muted Dark Chocolate Cocoa */
-  --text-h: #36271c;       /* Deep Roasted Coffee Bean */
-  --muted: #9c8a7c;        /* Soft Clay Dust */
+  --text: #5c4b3e;         
+  --text-h: #36271c;       
+  --muted: #9c8a7c;        
   --code-bg: #f5ede5;
   --social-bg: rgba(243, 230, 213, 0.6);
   --shadow: rgba(8c, 74, 62, 0.06) 0 10px 15px -3px, rgba(8c, 74, 62, 0.03) 0 4px 6px -2px;
@@ -214,18 +214,18 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /* Dark Mode - Cozy Fireplace Lounge */
-    --bg: #231b15;         /* Deep Warm Espresso Base */
-    --surface: #2d241e;    /* Warm Roasted Cocoa */
-    --surface2: #382d26;   /* Dark Earthy Clay */
-    --border: #4a3c33;     /* Muted Wood Charcoal */
-    --accent: #f2a183;     /* Soft Warm Terracotta Peach */
-    --accent2: #a3c9a8;    /* Muted Soft Sage */
+    /* Dark Mode */
+    --bg: #231b15;         
+    --surface: #2d241e;    
+    --surface2: #382d26;   
+    --border: #4a3c33;     
+    --accent: #f2a183;     
+    --accent2: #a3c9a8;    
     --accent-bg: rgba(242, 161, 131, 0.12);
     --accent-border: rgba(242, 161, 131, 0.4);
-    --text: #e6dcd3;       /* Soft Steamed Milk Cream */
-    --text-h: #fbf6f0;     /* Pure Soft Linen */
-    --muted: #a89689;      /* Soft Warm Ashes */
+    --text: #e6dcd3;       
+    --text-h: #fbf6f0;     
+    --muted: #a89689;      
     --code-bg: #382d26;
     --social-bg: rgba(56, 45, 38, 0.7);
     --shadow: rgba(0, 0, 0, 0.35) 0 10px 15px -3px, rgba(0, 0, 0, 0.2) 0 4px 6px -2px;

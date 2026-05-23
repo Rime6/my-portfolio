@@ -5,7 +5,7 @@ const cases = [
     id: '01',
     title: 'Service Site',
     subtitle: 'Local business web presence',
-    desc: 'A polished website for a local service provider — booking, trust-building, and clear value communication.',
+    desc: 'A polished website for a local service provider: booking, trust-building, and clear value communication.',
     tags: ['UX Research', 'Visual Design', 'Figma'],
     color: '#c8f04a',
     placeholder: '🔧',
@@ -13,8 +13,8 @@ const cases = [
   {
     id: '02',
     title: 'Memory Game',
-    subtitle: 'Jeu de mémoire',
-    desc: 'An interactive memory card game with thoughtful UI — accessible, engaging, and delightful to play.',
+    subtitle: 'Brain Training Game',
+    desc: 'An interactive memory card game with thoughtful UI.',
     tags: ['Interaction Design', 'Accessibility', 'JS'],
     color: '#4af0c8',
     placeholder: '🃏',
@@ -31,9 +31,9 @@ const cases = [
   {
     id: '04',
     title: 'Analytics Dashboard',
-    subtitle: 'Data visualization & BI',
+    subtitle: 'Data visualization',
     desc: 'A data-rich dashboard translating complex metrics into clear, actionable visual insights.',
-    tags: ['Data Viz', 'Dashboard Design', 'Power BI'],
+    tags: ['Data Viz', 'Dashboard Design'],
     color: '#f0a84a',
     placeholder: '📊',
   },
@@ -50,7 +50,7 @@ export default function CaseStudies() {
         <div className="cs-header-row">
           <h2 className="cs-heading">Case Studies</h2>
           <p className="cs-note">
-            Designs in progress — check back as the semester unfolds.
+            Designs in progress. Check back as the semester unfolds.
           </p>
         </div>
 

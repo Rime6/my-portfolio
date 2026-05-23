@@ -31,6 +31,46 @@
   padding: 4rem 0 3rem;
 }
 
+.hero-divider {
+  display: block;
+  width: 100%;
+  height: 0;
+  border-bottom: 2px dotted var(--accent);
+  opacity: 0.85;
+  /* pull the divider slightly upward so it's higher on the hero */
+  margin: -1.5rem 0 2rem;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-picture {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 20px 60px rgba(255, 195, 0, 0.1);
+}
+
+.hero-text {
+  max-width: 600px;
+  margin: 0 auto 1rem;
+}
+
 .hero-tag {
   font-family: var(--font-mono);
   font-size: 0.75rem;
@@ -44,7 +84,7 @@
 }
 
 .hero-name {
-  font-size: clamp(3.5rem, 10vw, 8rem);
+  font-size: clamp(2.5rem, 8vw, 5rem);
   font-weight: 800;
   letter-spacing: -0.03em;
   line-height: 0.95;
@@ -70,6 +110,13 @@
   gap: 1rem;
   flex-wrap: wrap;
   margin-bottom: 3rem;
+  justify-content: flex-start; /* align to left edge of .hero-text */
+}
+
+@media (max-width: 720px) {
+  .hero-actions {
+    justify-content: center;
+  }
 }
 
 .btn-primary-custom {

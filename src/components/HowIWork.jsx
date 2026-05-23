@@ -4,7 +4,7 @@ const steps = [
   {
     num: '01',
     title: 'Understand',
-    body: 'I start by deeply understanding the problem (who the users are, what they need, and what constraints exist). Good design solves real problems.',
+    body: 'I start by deeply understanding the problem (who the users are, what they need, and what constraints exist). I use a mix of user research, analysis, and interviews to build empathy and define clear design goals.',
   },
   {
     num: '02',
@@ -26,7 +26,7 @@ const steps = [
 const resources = [
   { label: 'Nielsen Norman Group', url: 'https://www.nngroup.com/' },
   { label: 'Interaction Design Foundation', url: 'https://www.interaction-design.org/' },
-  { label: 'SEG 3125 — UI Design @ uOttawa', url: 'https://www.uottawa.ca' },
+  { label: 'SEG 3125 - UI Design @ uOttawa', url: 'https://www.uottawa.ca' },
 ]
 
 export default function HowIWork() {
@@ -40,7 +40,7 @@ export default function HowIWork() {
         <div className="row gy-5 align-items-start">
 
           <div className="col-lg-4">
-            <h2 className="hiw-heading">How I<br />Work.</h2>
+            <h2 className="hiw-heading">How I Work.</h2>
             <p className="hiw-intro">
               I'm currently in the <strong>SEG 3125 UI Design course</strong> at the University
               of Ottawa, where I'm learning user-centered design principles, visual communication,

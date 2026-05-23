@@ -15,9 +15,9 @@ export default function Navbar() {
       <div className="container d-flex justify-content-between align-items-center">
         <span className="rn-nav__logo">RN<span className="dot">.</span></span>
         <ul className="rn-nav__links d-none d-md-flex list-unstyled mb-0 gap-4">
-          <li><a href="#about">About</a></li>
-          <li><a href="#how-i-work">Process</a></li>
-          <li><a href="#case-studies">Work</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#how-i-work">How I Work</a></li>
+          <li><a href="#case-studies">Projects</a></li>
         </ul>
         <a
           href="https://github.com/Rime6"

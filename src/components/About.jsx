@@ -2,13 +2,14 @@ import './About.css'
 
 const skills = [
   'Python', 'Java', 'JavaScript', 'React', 'Node.js',
-  'SQL / Neo4j', 'AWS / GCP', 'Docker', 'Power BI',
-  'AI / ML', 'Git', 'Linux',
+  'SQL / Neo4j', 'AWS / GCP', 'Docker',
+  'AI / ML', 'Git/GitHub/GitLab', 'Linux', "Go", "Bash", 
+  "HTML/CSS", "PowerShell", "Power Automate", "Power BI"
 ]
 
 const stats = [
   { value: '9.31', label: 'CGPA / 10' },
-  { value: '3×', label: 'Excellence Award' },
+  { value: '4×', label: 'Excellence Award' },
   { value: '2', label: 'Co-ops Completed' },
 ]
 
@@ -26,23 +27,19 @@ export default function About() {
           {/* Left column: bio */}
           <div className="col-lg-6">
             <h2 className="about-heading">
-              Trilingual engineer<br />
-              with a design eye.
+              Trilingual full-stack software developer
             </h2>
             <p className="about-body">
               I'm <strong>Rime Nasser Eddine</strong>, a Software Engineering student at the
-              University of Ottawa (2024–2029) with a CGPA of 9.31/10 and three consecutive
-              Recognition of Excellence awards.
+              University of Ottawa (2024–2029) with a CGPA of 9.31/10, 2 previous co-op placements,
+              and a lot of experience building full-stack web and mobile applications.
             </p>
             <p className="about-body">
-              I speak <span className="highlight">English, French, and Arabic</span> fluently,
-              which shapes how I think about communication in design.
-              I care deeply about building things that are both technically robust and genuinely
-              human-centered.
+              I speak <span className="highlight">English, French, and Arabic</span> fluently.
+              My experience in my previous 2 co-op placements as well as in 3 hackathons has given me a strong foundation in leadership, learning and building new tools under tight deadlines, and trouble-shooting issues in code. 
             </p>
             <p className="about-body">
-              Outside of code, I'm drawn to systems thinking, data visualization, and the
-              intersection of AI with everyday experiences. I'm currently exploring UI/UX design
+              I specialize in backend application development, AI integration and training, as well as complex database design. I'm currently exploring UI/UX design
               as part of my Software Engineering curriculum at uOttawa.
             </p>
 

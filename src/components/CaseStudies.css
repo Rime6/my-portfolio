@@ -1,6 +1,7 @@
 .cs-section {
   background: var(--surface);
   border-top: 1px solid var(--border);
+  padding: 4rem 0 3rem;
 }
 
 .cs-header-row {

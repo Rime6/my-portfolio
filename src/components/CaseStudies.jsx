@@ -33,7 +33,7 @@ const cases = [
     title: 'Analytics Dashboard',
     subtitle: 'Data visualization',
     desc: 'A data-rich dashboard translating complex metrics into clear, actionable visual insights.',
-    tags: ['Data Viz', 'Dashboard Design'],
+    tags: ['Data Viz', 'Dashboard Design', 'BI'],
     color: '#f0a84a',
     placeholder: '📊',
   },

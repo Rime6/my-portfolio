@@ -16,6 +16,13 @@
   border-bottom: 1px solid var(--border);
 }
 
+@media (prefers-color-scheme: dark) {
+  .rn-nav--scrolled {
+    background: rgba(28, 24, 20, 0.92);
+    border-bottom-color: var(--border);
+  }
+}
+
 .rn-nav__logo {
   font-family: var(--font-display);
   font-weight: 800;

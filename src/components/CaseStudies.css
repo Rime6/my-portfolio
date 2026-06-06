@@ -165,3 +165,22 @@
   cursor: not-allowed;
   opacity: 0.6;
 }
+
+/* Actionable variant (links or non-disabled controls) */
+.cs-btn:not([disabled]) {
+  cursor: pointer;
+  opacity: 1;
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
+.cs-btn:not([disabled]):hover {
+  filter: brightness(0.95);
+}
+
+.cs-btn:not([disabled]):focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(217,106,75,0.12);
+}

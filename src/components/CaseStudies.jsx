@@ -4,11 +4,11 @@ const cases = [
   {
     id: '01',
     title: 'Service Site',
-    subtitle: 'Local business web presence',
-    desc: 'A polished website for a local service provider: booking, trust-building, and clear value communication.',
+    subtitle: 'Mountain Goats Climbing Gym',
+    desc: 'A polished website for a local service provider: bookable climbing courses, gear rental, and memberships.',
     tags: ['UX Research', 'Visual Design', 'Figma'],
     color: '#c8f04a',
-    placeholder: '🔧',
+    placeholder: '🧗',
   },
   {
     id: '02',
@@ -78,9 +78,20 @@ export default function CaseStudies() {
                   <p className="cs-subtitle">{c.subtitle}</p>
                   <p className="cs-desc">{c.desc}</p>
 
-                  <button className="cs-btn" disabled>
-                    In Progress &nbsp;→
-                  </button>
+                  {c.title === 'Service Site' ? (
+                    <a
+                      href="https://mountaingoatsclimbinggym.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cs-btn"
+                    >
+                      View project &nbsp;→
+                    </a>
+                  ) : (
+                    <button className="cs-btn" disabled>
+                      In Progress &nbsp;→
+                    </button>
+                  )}
                 </div>
               </div>
             </div>

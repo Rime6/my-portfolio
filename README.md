@@ -1,4 +1,4 @@
-# Rime Nasser-Eddine — Portfolio
+# My Portfolio - Rime Nasser Eddine
 
 Welcome to my portfolio. This site showcases selected projects, my process, and the design and interaction decisions that shape how I present my work.
 

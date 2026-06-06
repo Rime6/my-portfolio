@@ -40,8 +40,8 @@ Welcome to my portfolio. This site showcases selected projects, my process, and 
 - Balance: two-column sections balance text with images or supporting content so each area feels stable and legible.
 - Contrast: achieved through dark-on-light text, accent highlights for interactive elements, and card backgrounds/borders for separation.
 
-Case Studies notes
+### Case Studies notes
 - Each project is presented as a contained card with a short description, role, tags, and a single call-to-action. This keeps projects distinct without competing for attention.
 
-Contact & contribution
+### Contact & contribution
 - The site footer contains links to contact and external profiles.

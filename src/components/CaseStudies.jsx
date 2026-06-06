@@ -61,7 +61,9 @@ export default function CaseStudies() {
                 {/* Placeholder visual */}
                 <div className="cs-thumb" style={{ '--card-accent': c.color }}>
                   <span className="cs-emoji" role="img" aria-label={c.title}>{c.placeholder}</span>
-                  <span className="cs-coming-badge">Coming Soon</span>
+                  {c.title !== 'Service Site' && (
+                    <span className="cs-coming-badge">Coming Soon</span>
+                  )}
                 </div>
 
                 <div className="cs-body">

@@ -14,8 +14,8 @@ const cases = [
   {
     id: '02',
     title: 'Memory Game',
-    subtitle: 'Brain Training Game',
-    desc: 'An interactive memory card game with thoughtful UI.',
+    subtitle: 'ChromaMatch Game',
+    desc: 'An interactive memory tile game where the user watches a sequence of colored tiles light up, then must repeat the exact sequence in the correct order.',
     tags: ['Interaction Design', 'Accessibility', 'JS'],
     color: '#4af0c8',
     placeholder: '🃏',

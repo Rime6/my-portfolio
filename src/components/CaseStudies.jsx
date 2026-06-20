@@ -9,6 +9,7 @@ const cases = [
     tags: ['UX Research', 'Visual Design', 'Figma'],
     color: '#c8f04a',
     placeholder: '🧗',
+    href: 'https://mountaingoatsclimbinggym.netlify.app/',
   },
   {
     id: '02',
@@ -18,6 +19,7 @@ const cases = [
     tags: ['Interaction Design', 'Accessibility', 'JS'],
     color: '#4af0c8',
     placeholder: '🃏',
+    href: 'https://chromamatchmemorygame.netlify.app/',
   },
   {
     id: '03',
@@ -61,7 +63,7 @@ export default function CaseStudies() {
                 {/* Placeholder visual */}
                 <div className="cs-thumb" style={{ '--card-accent': c.color }}>
                   <span className="cs-emoji" role="img" aria-label={c.title}>{c.placeholder}</span>
-                  {c.title !== 'Service Site' && (
+                  {c.title !== 'Service Site' && c.title !== 'Memory Game' && (
                     <span className="cs-coming-badge">Coming Soon</span>
                   )}
                 </div>
@@ -80,14 +82,14 @@ export default function CaseStudies() {
                   <p className="cs-subtitle">{c.subtitle}</p>
                   <p className="cs-desc">{c.desc}</p>
 
-                  {c.title === 'Service Site' ? (
+                  {c.href ? (
                     <a
-                      href="https://mountaingoatsclimbinggym.netlify.app/"
+                      href={c.href}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cs-btn"
                     >
-                      View project &nbsp;→
+                      View Project &nbsp;→
                     </a>
                   ) : (
                     <button className="cs-btn" disabled>

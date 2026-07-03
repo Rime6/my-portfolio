@@ -23,12 +23,13 @@ const cases = [
   },
   {
     id: '03',
-    title: 'E-Commerce Site',
-    subtitle: 'Online shopping experience',
+    title: 'DriveMatch',
+    subtitle: 'E-Commerce Site',
     desc: 'A full e-commerce storefront focused on conversion, product clarity, and a seamless checkout flow.',
     tags: ['E-Commerce UX', 'Prototyping', 'React'],
     color: '#f04a9a',
-    placeholder: '🛍️',
+    placeholder: '🚗',
+    href: 'https://drivematchecommercesite.netlify.app/'
   },
   {
     id: '04',
@@ -63,7 +64,7 @@ export default function CaseStudies() {
                 {/* Placeholder visual */}
                 <div className="cs-thumb" style={{ '--card-accent': c.color }}>
                   <span className="cs-emoji" role="img" aria-label={c.title}>{c.placeholder}</span>
-                  {c.title !== 'Service Site' && c.title !== 'Memory Game' && (
+                  {c.title !== 'Service Site' && c.title !== 'Memory Game' && c.title !== 'DriveMatch' && (
                     <span className="cs-coming-badge">Coming Soon</span>
                   )}
                 </div>

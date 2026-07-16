@@ -36,9 +36,10 @@ const cases = [
     title: 'Analytics Dashboard',
     subtitle: 'Data visualization',
     desc: 'A data-rich dashboard translating complex metrics into clear, actionable visual insights.',
-    tags: ['Data Viz', 'Dashboard Design', 'BI'],
+    tags: ['Data Viz', 'Dashboard Design', 'Internalization'],
     color: '#f0a84a',
     placeholder: '📊',
+    href: 'https://herhealthdashboard.netlify.app/',
   },
 ]
 
@@ -52,9 +53,6 @@ export default function CaseStudies() {
 
         <div className="cs-header-row">
           <h2 className="cs-heading">Case Studies</h2>
-          <p className="cs-note">
-            Designs in progress. Check back as the semester unfolds.
-          </p>
         </div>
 
         <div className="row g-4">
@@ -64,9 +62,6 @@ export default function CaseStudies() {
                 {/* Placeholder visual */}
                 <div className="cs-thumb" style={{ '--card-accent': c.color }}>
                   <span className="cs-emoji" role="img" aria-label={c.title}>{c.placeholder}</span>
-                  {c.title !== 'Service Site' && c.title !== 'Memory Game' && c.title !== 'DriveMatch' && (
-                    <span className="cs-coming-badge">Coming Soon</span>
-                  )}
                 </div>
 
                 <div className="cs-body">
